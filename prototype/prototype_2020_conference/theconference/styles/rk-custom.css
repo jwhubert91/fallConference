@@ -47,3 +47,13 @@
 }
 
 /* Speed networking styles */
+
+/* Form styles */
+form label {
+  color: black;
+  font-weight: bold;
+}
+
+.register-form {
+  margin-bottom: 100px;
+}
