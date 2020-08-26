@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Register</title>
+    <title>Zoom Breakout Room</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Conference project" />
@@ -31,11 +31,11 @@
       type="text/css"
       href="plugins/OwlCarousel2-2.2.1/animate.css"
     />
-    <link rel="stylesheet" type="text/css" href="styles/speakers.css" />
+    <link rel="stylesheet" type="text/css" href="styles/events.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="styles/speakers_responsive.css"
+      href="styles/events_responsive.css"
     />
     <link rel="stylesheet" type="text/css" href="styles/rk-custom.css" />
   </head>
@@ -53,12 +53,7 @@
                 class="logo_container d-flex flex-row align-items-start justify-content-start"
               >
                 <div class="logo_image">
-                  <div>
-                    <img
-                      src="https://comptroller.nyc.gov/wp-content/themes/comptroller_theme/images/icons/touch.png?ver=1"
-                      alt=""
-                    />
-                  </div>
+                  <div><img src="images/logo.png" alt="" /></div>
                 </div>
                 <div class="logo_content">
                   <div class="logo_text logo_text_not_ie">
@@ -76,50 +71,32 @@
             <li class="menu_item"><a href="events.html">Schedule</a></li>
             <li class="menu_item"><a href="#">People</a></li>
             <li class="menu_item"><a href="#">Support</a></li>
-            <li class="menu_item"><a href="">Account</a></li>
-            <li class="menu_item">
-              <a href="contact.html"><i class="fa fa-bell"></i></a>
+            <li class="menu_item"><a href="news.html">Account</a></li>
+            <li class="menu_item active">
+              <a href="#"><i class="fa fa-bell"></i></a>
             </li>
           </ul>
         </div>
         <div class="menu_social">
-          <div class="menu_social_title">Follow us on Social Media</div>
-          <ul class="footer_social_list">
+          <div class="menu_social_title">Follow uf on Social Media</div>
+          <ul>
             <li>
-              <a href="https://twitter.com/NYCComptroller"
-                ><i
-                  class="fa fa-twitter"
-                  href="https://twitter.com/NYCComptroller"
-                  aria-hidden="true"
-                ></i
-              ></a>
+              <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
             </li>
             <li>
-              <a href="https://www.facebook.com/scottstringernyc/"
-                ><i
-                  class="fa fa-facebook"
-                  href="https://www.facebook.com/scottstringernyc/"
-                  aria-hidden="true"
-                ></i
-              ></a>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/NYCComptroller/"
-                ><i
-                  class="fa fa-instagram"
-                  aria-hidden="true"
-                  href="https://www.instagram.com/NYCComptroller/"
-                ></i
-              ></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
             <li>
-              <a href="https://www.youtube.com/user/ComptrollersOffice"
-                ><i
-                  class="fa fa-youtube-play"
-                  aria-hidden="true"
-                  href="https://www.youtube.com/user/ComptrollersOffice"
-                ></i
-              ></a>
+              <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </li>
           </ul>
         </div>
@@ -127,15 +104,7 @@
 
       <!-- Home -->
 
-      <div class="home">
-        <!-- <div class="home_background" style="background-image: url(images/index.jpg)"></div> -->
-        <div
-          class="parallax_background parallax-window"
-          data-parallax="scroll"
-          data-image-src="images/Comptroller_Default_Slide.png"
-          data-speed="0.8"
-        ></div>
-
+      <div class="home" id="zoom_room_header">
         <!-- Header -->
 
         <header class="header" id="header">
@@ -175,9 +144,9 @@
                         </a>
                       </div>
                       <div class="header_social ml-auto">
-                        <ul class="footer_social_list">
+                        <ul>
                           <li>
-                            <a href="https://twitter.com/NYCComptroller"
+                            <a href="#"
                               ><i
                                 class="fa fa-twitter"
                                 href="https://twitter.com/NYCComptroller"
@@ -186,7 +155,7 @@
                             ></a>
                           </li>
                           <li>
-                            <a href="https://www.facebook.com/scottstringernyc/"
+                            <a href="#"
                               ><i
                                 class="fa fa-facebook"
                                 href="https://www.facebook.com/scottstringernyc/"
@@ -195,7 +164,7 @@
                             ></a>
                           </li>
                           <li>
-                            <a href="https://www.instagram.com/NYCComptroller/"
+                            <a href="#"
                               ><i
                                 class="fa fa-instagram"
                                 aria-hidden="true"
@@ -204,8 +173,7 @@
                             ></a>
                           </li>
                           <li>
-                            <a
-                              href="https://www.youtube.com/user/ComptrollersOffice"
+                            <a href="#"
                               ><i
                                 class="fa fa-youtube-play"
                                 aria-hidden="true"
@@ -237,22 +205,23 @@
                               <li>
                                 <a href="index.html">Home</a>
                               </li>
-                              <li><a href="events.html">Schedule</a></li>
-                              <li class="">
-                                <a href="speakers.html">People</a>
-                              </li>
-                              <li><a href="">Support</a></li>
-                              <li><a href="">Account</a></li>
                               <li>
-                                <a href="contact.html"
-                                  ><i class="fa fa-bell"></i
-                                ></a>
+                                <a href="events.html">Schedule</a>
+                              </li>
+                              <li><a href="speakers.html">People</a></li>
+                              <li><a href="events.html">Support</a></li>
+                              <li><a href="news.html">Account</a></li>
+                              <li class="active">
+                                <a href="#"><i class="fa fa-bell"></i></a>
                               </li>
                             </ul>
                           </nav>
                           <div class="header_extra ml-auto">
                             <div class="header_search">
                               <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                            <div class="button header_button">
+                              <a href="register.html">Register / Login</a>
                             </div>
                           </div>
                         </div>
@@ -291,135 +260,100 @@
             </div>
           </div>
         </header>
-
-        <div class="home_content_container">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div
-                  class="home_content d-flex flex-row align-items-end justify-content-start"
-                >
-                  <div class="current_page">Register</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
       <!-- Main -->
 
-      <div class="speakers register-form">
-        <div class="container reset_container">
-          <div class="row row-lg-eq-height">
-            <div class="col-xl-12">
-              <div class="speaker_content justify-content-center">
-                <div class="form-group row">
-                  <p class="text-dark text-center">
-                    Already registered?
-                    <a href="login.html" class="text-primary">Log In Instead</a>
-                  </p>
-                </div>
-                <form>
-                  <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label"
-                      >Email</label
-                    >
-                    <div class="col-sm-10">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="inputEmail3"
-                        placeholder="Email"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label"
-                      >Password</label
-                    >
-                    <div class="col-sm-10">
-                      <input
-                        type="password"
-                        class="form-control"
-                        id="inputPassword3"
-                        placeholder="Password"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label"
-                      >Confirm Password</label
-                    >
-                    <div class="col-sm-10">
-                      <input
-                        type="password-confirm"
-                        class="form-control"
-                        id="inputPassword4"
-                        placeholder="Confirm Password"
-                      />
-                    </div>
-                  </div>
-                  <br />
-                  <hr />
-                  <br />
-                  <div class="form-group row">
-                    <label for="firstNameInput" class="col-sm-2 col-form-label"
-                      >First Name</label
-                    >
-                    <div class="col-sm-10">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="fistNameInput"
-                        placeholder="e.g. Jane"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-group row">
-                    <label for="lastNameInput" class="col-sm-2 col-form-label"
-                      >Last Name</label
-                    >
-                    <div class="col-sm-10">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="lastNameInput"
-                        placeholder="e.g. Doe"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-group row">
-                    <label for="companyInput" class="col-sm-2 col-form-label"
-                      >Company</label
-                    >
-                    <div class="col-sm-10">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="companyInput"
-                        placeholder="ABC Corp."
-                      />
-                    </div>
-                  </div>
-                  <div class="form-group row">
-                    <label for="einInput" class="col-sm-2 col-form-label"
-                      >EIN</label
-                    >
-                    <div class="col-sm-10">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="einInput"
-                        placeholder="1234567890"
-                      />
-                    </div>
-                  </div>
+      <div class="events">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <!-- Notifications -->
 
-                  <div class="button speaker_button pull-right">
-                    <a href="#">Enroll</a>
+              <div class="calendar">
+                <!-- <div class="container reset_container"> -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6 offset-xl-3 calendar_col">
+                      <div class="calendar_container">
+                        <div
+                          class="calendar_title_bar d-flex flex-row align-items-center justify-content-start"
+                        >
+                          <!-- <div>
+                    <div class="calendar_icon">
+                      <img src="images/calendar.svg" alt="" />
+                    </div>
+                  </div> -->
+                          <div class="calendar_title">
+                            <i class="fa fa-bell"></i> Notifications
+                          </div>
+                        </div>
+                        <div class="calendar_items">
+                          <!-- Calendar Item -->
+                          <div
+                            class="calendar_item d-flex flex-row align-items-center justify-content-start"
+                          >
+                            <div>
+                              <div class="">
+                                <i class="fa fa-bell"></i>
+                              </div>
+                            </div>
+                            <div class="calendar_item_text">
+                              <div style="color: black">
+                                Morning Speaker Changed from John Doe to Jane
+                                Smith
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Calendar Item -->
+                          <div
+                            class="calendar_item d-flex flex-row align-items-center justify-content-start"
+                          >
+                            <div>
+                              <div class="">
+                                <!-- <img src="images/event_1.jpg" alt="" /> -->
+                                <i class="fa fa-bell"></i>
+                              </div>
+                            </div>
+                            <!-- <div class="calendar_item_time">
+                      <div>14:00</div>
+                      <div>Auditorium</div>
+                    </div> -->
+                            <div class="calendar_item_text">
+                              <div style="color: black">
+                                You have selected a breakout session! "Making
+                                dollars make sense"
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Calendar Item -->
+                          <div
+                            class="calendar_item d-flex flex-row align-items-center justify-content-start"
+                          >
+                            <div>
+                              <div class="">
+                                <!-- <img src="images/event_1.jpg" alt="" /> -->
+                                <i class="fa fa-bell"></i>
+                              </div>
+                            </div>
+                            <!-- <div class="calendar_item_time">
+                      <div>14:00</div>
+                      <div>Auditorium</div>
+                    </div> -->
+                            <div class="calendar_item_text">
+                              <div style="color: black">
+                                Please update your profile.
+                                <a href="#">Link here</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </form>
+                </div>
               </div>
             </div>
           </div>
@@ -490,7 +424,16 @@
 
               <!-- Footer Column -->
               <div class="col-lg-3 footer_col">
-                <div class="footer_links"></div>
+                <div class="footer_links">
+                  <!-- <ul>
+                    <li><a href="#">Logistics</a></li>
+                    <li><a href="#">Our Partners</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Price Plans</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul> -->
+                </div>
               </div>
 
               <!-- Footer Column -->
@@ -502,7 +445,7 @@
                     <li><a href="#">People</a></li>
                     <li><a href="#">Support</a></li>
                     <li><a href="#">Account</a></li>
-                    <li>
+                    <li class="active">
                       <a href="#"><i class="fa fa-bell"></i></a>
                     </li>
                   </ul>
@@ -598,6 +541,6 @@
     <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
     <script src="plugins/easing/easing.js"></script>
     <script src="plugins/parallax-js-master/parallax.min.js"></script>
-    <script src="js/speakers.js"></script>
+    <script src="js/events.js"></script>
   </body>
 </html>

@@ -57,3 +57,13 @@ form label {
 .register-form {
   margin-bottom: 100px;
 }
+
+/* Zoom meeting styles */
+.zoom_meeting_image {
+  width: 80%;
+  border: 1px solid blue;
+}
+
+#zoom_room_header {
+  height: 154px;
+}
