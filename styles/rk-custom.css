@@ -46,7 +46,12 @@
   }
 }
 
-/* Speed networking styles */
+/* Schedule page styles */
+.schedule_table {
+  margin: 0 auto;
+  width: 92%;
+  padding-top: 150px;
+}
 
 /* Form styles */
 form label {
