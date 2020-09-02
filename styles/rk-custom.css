@@ -46,11 +46,16 @@
   }
 }
 
-/* Schedule page styles */
+/* Schedule and Events page styles */
 .schedule_table {
   margin: 0 auto;
   width: 92%;
   padding-top: 150px;
+}
+
+.schedule-date-header {
+  color: black;
+  font-size: 46px;
 }
 
 /* Form styles */
