@@ -53,6 +53,7 @@
   padding-top: 150px;
 }
 
+.main-section-header,
 .schedule-date-header {
   color: black;
   font-size: 46px;
@@ -76,4 +77,17 @@ form label {
 
 #zoom_room_header {
   height: 154px;
+}
+
+/* Speakers page - Attendee List */
+div.attendees {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+table.attendees-list {
+  color: black;
+  font-weight: bold;
+}
+table.attendees-list a.btn-primary {
+  color: white !important;
 }
