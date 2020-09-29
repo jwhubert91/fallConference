@@ -174,7 +174,7 @@ $(document).ready(function () {
 				 <td>${user.name}</td>
 				 <td>${user.company.name}</td>
 				 <td>
-				 	<a class="link" href="https://www.linkedin.com/in/sarabattino/" target="_none">Linkedin profile</a>
+				 	<a class="link" href="https://www.linkedin.com/in/shaquilleoneal/" target="_none">Linkedin profile</a>
 				 </td>
 				 <td>
 				 	<a class="btn btn-primary" role="button">Send Invite</a>
