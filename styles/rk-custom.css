@@ -91,3 +91,6 @@ table.attendees-list {
 table.attendees-list a.btn-primary {
   color: white !important;
 }
+label.profile-consent-label {
+  font-weight: bold;
+}
