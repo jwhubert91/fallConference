@@ -94,3 +94,6 @@ table.attendees-list a.btn-primary {
 label.profile-consent-label {
   font-weight: bold;
 }
+input#displayProfileConsent:checked {
+  color: blue;
+}
