@@ -174,7 +174,7 @@ $(document).ready(function () {
 				 <td>${user.name}&nbsp;<a class="link" href="https://www.linkedin.com/in/shaquilleoneal/" target="_none">Linkedin</a></td>
 				 <td><a class="link" href="https://www.ibm.org/" target="_none">${user.company.name}</a></td>
 				 <td>
-				 	<a class="btn btn-primary" role="button">Send Invite</a>
+				 	<a class="btn btn-primary send-invite" role="button">Send Invite</a>
 				 </td>
 			  </tr>
 		  `;
@@ -192,3 +192,9 @@ $(document).ready(function () {
       });
     });
 });
+
+const sendButtonEl = document.querySelector(".send-invite");
+sendButtonEl.addEventListener(
+  "click",
+  alert("Are you sure you want to send an invite?")
+);
