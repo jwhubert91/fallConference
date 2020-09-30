@@ -219,7 +219,7 @@ $(document).ready(function () {
           </svg>
           </a>
          </td>
-				 <td><a class="link" href="https://www.ibm.org/" target="_none">${user.company.name}</a></td>
+				 <td><a class="link" href="http://www.rksoftwareinc.com" target="_none">${user.company.name}</a></td>
 				 <td>
 				 	<a class="btn btn-primary send-invite" role="button">Send Invite</a>
 				 </td>
