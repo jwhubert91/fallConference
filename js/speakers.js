@@ -187,8 +187,8 @@ $(document).ready(function () {
     });
 });
 
-const sendButtonEl = document.querySelector(".send-invite");
-sendButtonEl.addEventListener(
-  "click",
-  alert("Are you sure you want to send an invite?")
-);
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("send-invite")) {
+    confirm("Are you sure you want to send an invite to this attendee?");
+  }
+});
