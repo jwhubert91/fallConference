@@ -816,10 +816,68 @@
                     </tbody>
                   </table>
                 </div>
-                <div class="button speaker_button pull-right">
+                <div
+                  class="button speaker_button pull-right"
+                  data-toggle="modal"
+                  data-target="#submitModal"
+                >
                   <a href="#">Submit</a>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="submitModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="submitModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="submitModalLabel">Confirm</h3>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Are you sure you want to send meeting invites to the following
+              organizations?
+              <br />
+              <br />
+              <ul id="invites-list">
+                <li><strong>Agency 6</strong> @ 1:05 pm - 1:10pm</li>
+                <li><strong>Gamma Bank</strong> @ 1:30 pm - 1:35pm</li>
+                <li><strong>Zeta Bank 6</strong> @ 1:40 pm - 1:45pm</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-dismiss="modal"
+                data-toggle="alert"
+              >
+                Send Invites
+              </button>
             </div>
           </div>
         </div>

@@ -97,3 +97,8 @@ label.profile-consent-label {
 input#displayProfileConsent:checked {
   color: blue;
 }
+
+/* 1 on 1 invites page */
+div.modal {
+  color: black;
+}
