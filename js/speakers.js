@@ -171,7 +171,7 @@ $(document).ready(function () {
 						<path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
 					</svg>
 				 </td> 
-				 <td>${user.name}<a class="link" href="https://www.linkedin.com/in/shaquilleoneal/" target="_none">Linkedin</a></td>
+				 <td>${user.name}&nbsp;<a class="link" href="https://www.linkedin.com/in/shaquilleoneal/" target="_none">Linkedin</a></td>
 				 <td><a class="link" href="https://www.ibm.org/" target="_none">${user.company.name}</a></td>
 				 <td>
 				 	<a class="btn btn-primary" role="button">Send Invite</a>
