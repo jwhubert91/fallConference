@@ -182,13 +182,7 @@ $(document).ready(function () {
       // Datatables
       $("table").DataTable({
         columnDefs: [{ orderable: false, targets: 0 }],
-        columns: [
-          { orderable: false },
-          null,
-          null,
-          { orderable: false },
-          { orderable: false },
-        ],
+        columns: [{ orderable: false }, null, null, { orderable: false }],
       });
     });
 });
